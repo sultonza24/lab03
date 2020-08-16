@@ -13,7 +13,7 @@ var word03 = "";
 var i = Math.floor(Math.random()*5);
 
 if(i == 0) {
-    quest01 = "สวัสดี";
+    quest01 = "สวั";
     word01 = "HELLO";
     quest02 = "แมว";
     word02 = "CAT";
@@ -58,10 +58,9 @@ function App() {
   return (
     <body>
       <div className = 'h01'><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><h1>WELCOME T0 THE FOOTBALL WORLD</h1><br></br></div>
-      <h1> This is Shuffle word game !</h1>
-      <h1>We will test your English knowledge.</h1> <br></br>
-      <div className = "h3"><div id="demo"></div><br></br></div>
-
+      <div className = 'h2'><h1>This is a matching game about football.</h1></div>
+      <div className = 'h3'><h1>Have fun playing the word match football game.</h1><br></br></div>
+      
       &nbsp;&nbsp;&nbsp;1. "{quest01}" ภาษาอังกฤษว่าอะไร ? <br></br>
       <WordCard value={word01}/>
 
