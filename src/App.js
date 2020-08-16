@@ -3,38 +3,38 @@ import logo from './logo.svg';
 import './App.css';
 import WordCard from './WordCard';
 
-var quest01 = "";
-var quest02 = "";
-var quest03 = "";
-var word01 = "";
-var word02 = "";
-var word03 = "";
+var q1 = "";
+var q2 = "";
+var q3 = "";
+var w1 = "";
+var w2 = "";
+var w3 = "";
 
 var i = Math.floor(Math.random()*3);
 
 if(i == 0) {
-    quest01 = "ฟุตบอล";
-    word01 = "FOOTBALL";
-    quest02 = "ยิง";
-    word02 = "SHOOT";
-    quest03 = "กองหลัง";
-    word03 = "DEFENDE";
+    q1 = "ฟุตบอล";
+    w1 = "FOOTBALL";
+    q2 = "ยิง";
+    w2 = "SHOOT";
+    q3 = "กองหลัง";
+    w3 = "DEFENDE";
 }
 else if(i == 1) {
-    quest01 = "กองหน้า";
-    word01 = "STRIKER";
-    quest02 = "ผู้จัดการทีม";
-    word02 = "COACH";
-    quest03 = "ประตู";
-    word03 = "GOAL";
+    q1 = "กองหน้า";
+    w1 = "STRIKER";
+    q2 = "ผู้จัดการทีม";
+    w2 = "COACH";
+    q3 = "ประตู";
+    w3 = "GOAL";
 }
 else if(i == 2){
-    quest01 = "สนาม";
-    word01 = "STADIUM";
-    quest02 = "สนับสุนน";
-    word02 = "SPONSER";
-    quest03 = "จบ";
-    word03 = "END";
+    q1 = "สนาม";
+    w1 = "STADIUM";
+    q2 = "สนับสุนน";
+    w2 = "SPONSER";
+    q3 = "จบ";
+    w3 = "END";
 }
 
 const word = "Hello";
@@ -45,14 +45,14 @@ function App() {
       <div className = 'h2'><h1>This is a matching game about football.</h1></div>
       <div className = 'h3'><h1>Have fun playing the word match football game.</h1><br></br></div>
       
-      &nbsp;&nbsp;&nbsp;1. "{quest01}" ภาษาอังกฤษว่าอะไร ? <br></br>
-      <WordCard value={word01}/>
+      &nbsp;&nbsp;&nbsp;1. "{q1}" ภาษาอังกฤษว่าอะไร ? <br></br>
+      <WordCard value={w1}/>
 
-      &nbsp;&nbsp;&nbsp;2. "{quest02}" ภาษาอังกฤษว่าอะไร ? <br></br>
-      <WordCard value={word02}/>
+      &nbsp;&nbsp;&nbsp;2. "{2}" ภาษาอังกฤษว่าอะไร ? <br></br>
+      <WordCard value={w2}/>
   
-      &nbsp;&nbsp;&nbsp;3. "{quest03}" ภาษาอังกฤษว่าอะไร ? <br></br>
-      <WordCard value={word03}/>
+      &nbsp;&nbsp;&nbsp;3. "{q3}" ภาษาอังกฤษว่าอะไร ? <br></br>
+      <WordCard value={w3}/>
 
     </body>
     );

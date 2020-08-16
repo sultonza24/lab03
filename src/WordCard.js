@@ -34,11 +34,11 @@ export default function WordCard(props){
         if(guess.length == state.word.length){
             if(guess == state.word){
                 correct++;
-                console.log('WOW ! You Correct' + 'Your point is '+ correct)
-                alert('WOW ! You Correct' + 'Your point is '+ correct)
+                console.log('WOW!!! You Correct' + 'Your point is '+ correct)
+                alert('WOW You Correct' + 'Your point is '+ correct)
                 setState({...state, completed: true})
                 if(correct == 3) {
-                    console.log("YOU WIN!")
+                    console.log("YOU WIN")
                     alertToWin();
                     window.location.reload(false)
                 }
