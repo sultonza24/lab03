@@ -69,10 +69,10 @@ function alertToWin() {
         alert("YOU WIN!");
     }
     else if(ale == 1) {
-        alert("YOUR ENGLISH SO GOOD!");
+        alert("YOU THE BEST FAN");
     }
     else{
-        alert("YOU SO WISE!");
+        alert("GOOD JOB BROTHER");
     }
 }
 

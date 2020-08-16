@@ -25,12 +25,12 @@ else if(i == 1) {
     word01 = "STRIKER";
     quest02 = "ผู้จัดการทีม";
     word02 = "COACH";
-    quest03 = "นายประตู";
-    word03 = "GOAL KEEPER";
+    quest03 = "ประตู";
+    word03 = "GOAL";
 }
-else {
-    quest01 = "สนามฟุตบอล";
-    word01 = "FOOTBALL STADIUM";
+else if(i == 2){
+    quest01 = "สนาม";
+    word01 = "STADIUM";
     quest02 = "สนับสุนน";
     word02 = "SPONSER";
     quest03 = "จบ";
