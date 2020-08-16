@@ -21,23 +21,20 @@
     background-image: url("https://themepack.me/i/c/749x468/media/g/273/football-theme-15.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
     
   }
-
 
   h1 {
     text-align: center;
     font-size: medium;
+    color: aliceblue;
   
   }
   h2 {
     text-align: center;
     font-size: large;
-  }
-  .h3 {
-    text-align: center;
-    font-size: x-large;
-    color: crimson;
+    color: aliceblue;
   }
   
   .p1 {
@@ -50,10 +47,11 @@
     background-color: slateblue;
     color: aliceblue;
   }
+
   
   button{
     font-family: "Comic Sans MS";
     background-color: burlywood;
-  
+   
   
   }

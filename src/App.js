@@ -10,47 +10,31 @@ var word01 = "";
 var word02 = "";
 var word03 = "";
 
-var i = Math.floor(Math.random()*5);
+var i = Math.floor(Math.random()*3);
 
 if(i == 0) {
-    quest01 = "สวั";
-    word01 = "HELLO";
-    quest02 = "แมว";
-    word02 = "CAT";
-    quest03 = "หมา";
-    word03 = "DOG";
+    quest01 = "ฟุตบอล";
+    word01 = "FOOTBALL";
+    quest02 = "ยิง";
+    word02 = "SHOOT";
+    quest03 = "กองหลัง";
+    word03 = "DEFENDE";
 }
 else if(i == 1) {
-    quest01 = "มด";
-    word01 = "ANT";
-    quest02 = "ดอกไม้";
-    word02 = "FLOWER";
-    quest03 = "ไก่";
-    word03 = "CHICKEN";
+    quest01 = "กองหน้า";
+    word01 = "STRIKER";
+    quest02 = "ผู้จัดการทีม";
+    word02 = "COACH";
+    quest03 = "นายประตู";
+    word03 = "GOAL KEEPER";
 }
-else if(i == 2) {
-    quest01 = "วิ่ง";
-    word01 = "RUN";
-    quest02 = "เดิน";
-    word02 = "WALK";
-    quest03 = "นอน";
-    word03 = "SLEEP";
-}
-else if(i == 3) {
-    quest01 = "ต้นไม้";
-    word01 = "TREE";
-    quest02 = "กระโดด";
-    word02 = "JUMP";
-    quest03 = "โทรศัพท์";
-    word03 = "TELEPHONE";
-}
-else{
-    quest01 = "เป็ด";
-    word01 = "DUCK";
-    quest02 = "เสือ";
-    word02 = "TIGER";
-    quest03 = "สิงโต";
-    word03 = "LION";
+else {
+    quest01 = "สนามฟุตบอล";
+    word01 = "FOOTBALL STADIUM";
+    quest02 = "สนับสุนน";
+    word02 = "SPONSER";
+    quest03 = "จบ";
+    word03 = "END";
 }
 
 const word = "Hello";
